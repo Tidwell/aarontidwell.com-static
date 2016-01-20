@@ -1,0 +1,8 @@
+
+{
+	"template": "page"
+}
+
+---
+
+Resume

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{#if doc.metadata.title}}
+				Aaron Tidwell - {{doc.metadata.title}}
+			{{else}}
+				Aaron Tidwell
+			{{/if}}</title> 
+
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=yes,width=device-width" />
+
+	<!-- build:css /assets/css/styles.css -->
+	<link rel="stylesheet" type="text/css" href="/assets/bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+	<!-- endbuild -->
+</head>
+<body>
+	<!-- Navigation -->
+	<a menu-toggle href="#" class="btn btn-dark btn-lg toggle"> <i class="fa fa-bars"></i>
+	</a>
+	<nav id="sidebar-wrapper">
+		<ul class="sidebar-nav">
+			<a  menu-close href="#" class="btn btn-light btn-lg pull-right toggle"> <i class="fa fa-times"></i>
+			</a>
+			<li class="sidebar-brand">
+				<a href="/">Aaron Tidwell</a>
+			</li>
+			<li>
+				<a href="/">Home</a>
+			</li>
+			<li>
+				<a href="/resume">Resume</a>
+			</li>
+			<li>
+				<a href="/portfolio">Portfolio</a>
+			</li>
+			<li>
+				<a href="/contact">Contact</a>
+			</li>
+		</ul>
+	</nav>
