@@ -6,7 +6,7 @@ module.exports = function(grunt) {
 	require('load-grunt-tasks')(grunt);
 
 	//group files to be passed to watching or jshint
-	var jsFiles = ['Gruntfile.js', 'src/**/*.js', 'test/**/*.js', 'assets/js/**/*.js', 'bower.json', 'package.json'];
+	var jsFiles = ['Gruntfile.js', 'src/**/*.js', 'src/**/*.json', 'test/**/*.js', 'assets/js/**/*.js', 'bower.json', 'package.json'];
 	var otherFiles = ['content/**/*', 'templates/**/*', 'assets/css/**/*', 'assets/images/**/*'];
 	var allFiles = jsFiles.concat(otherFiles);
 

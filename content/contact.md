@@ -1,8 +1,7 @@
 
 {
-	"template": "page"
+	"template": "page",
+	"title": "Contact"
 }
 
 ---
-
-Concact

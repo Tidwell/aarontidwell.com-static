@@ -1,0 +1,104 @@
+[resume-page] {
+    padding: 3em 1em;
+    font-size: 16px;
+    line-height: 1.25em;
+    text-align: center;
+}
+[resume-page] .letterhead {
+    float: right;
+    clear: both;
+}
+[resume-page] .letterhead h1 {
+    font-size: 1.25em;
+}
+[resume-page] .letterhead h1, [resume-page] .letterhead strong, [resume-page] .letterhead a {
+    text-align: right;
+    margin: 0 auto;
+    display: block;
+    font-weight: normal;
+}
+[resume-page] h2 {
+    text-decoration: underline;
+}
+[resume-page] ul {
+    display: inline-block;
+    margin: 1em 1em;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+}
+[resume-page] ul li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+[resume-page] ul li:first-child {
+    font-weight: bold;
+}
+[resume-page] p, [resume-page] h1, [resume-page] h2 {
+    clear: both;
+    text-align: left;
+}
+[resume-page] p:nth-child(even) {
+    margin-bottom: .5em;
+}
+[resume-page] p:nth-child(odd) {
+    margin-bottom: 2em;
+}
+[resume-page] .skills p {
+    margin-bottom: 1em;
+}
+
+[resume-page] p + h2, [resume-page] ul + h2 {
+    margin-top: 1em;
+}
+[resume-page] .foot span {
+    display: block;
+    float: right;
+}
+[resume-page] .foot i {
+    margin-left: 3em;
+}
+
+
+@media screen {
+    /*paper effect when not printed*/
+    [resume-page] .row>div {
+        position: relative;
+        padding: 50px;
+        background-color: #fff;
+        -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+    }
+
+    [resume-page] .row>div:before, [resume-page] .row>div:after {
+        position: absolute;
+        width: 40%;
+        height: 10px;
+        content: ' ';
+        left: 12px;
+        bottom: 20px;
+        background: transparent;
+        -webkit-transform: skew(-5deg) rotate(-5deg);
+        -moz-transform: skew(-5deg) rotate(-5deg);
+        -ms-transform: skew(-5deg) rotate(-5deg);
+        -o-transform: skew(-5deg) rotate(-5deg);
+        transform: skew(-5deg) rotate(-5deg);
+        -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        z-index: -1;
+    } 
+
+    [resume-page] .row>div:after
+    {
+        left: auto;
+        right: 12px;
+        -webkit-transform: skew(5deg) rotate(5deg);
+        -moz-transform: skew(5deg) rotate(5deg);
+        -ms-transform: skew(5deg) rotate(5deg);
+        -o-transform: skew(5deg) rotate(5deg);
+        transform: skew(5deg) rotate(5deg);
+    }
+}

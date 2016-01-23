@@ -1,0 +1,45 @@
+.portfolio .folio-item {
+	position: relative;
+	font-size: 16px;
+	border: .25em solid #3d3d3d;
+	padding: 0;
+	min-height: 20em;
+	margin-bottom: 2em;
+	background: #ddd;
+	padding-bottom: 2em;
+}
+.portfolio .folio-item .link-container {
+	background: #ccc;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.portfolio .folio-item a {
+	box-sizing: border-box;
+	display: block;
+	height: 2em;	
+	padding: .25em 1em;
+}
+.portfolio .folio-item img {
+	max-height: 20%
+}
+.portfolio .folio-item .content {
+	padding: 1em 1em 0;
+}
+.portfolio .folio-item hr {
+	margin: .25em 0 .5em;
+}
+.portfolio .folio-item .content p {
+	margin-top: .5em;
+}
+.portfolio .tag {
+	display: block;
+	position: absolute;
+	top: -.25em;
+	right: -.25em;
+	background: #3d3d3d;
+	color: #fff;
+	padding: .25em;
+	box-shadow: 0 2px 2px #3d3d3d;
+	font-size: .8em;
+}

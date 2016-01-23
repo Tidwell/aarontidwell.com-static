@@ -1,0 +1,23 @@
+@media print {
+	#sidebar-wrapper { display: none; }
+	[menu-toggle] { display: none; }
+	footer { display: none; }
+
+	[resume-page] {
+		padding: 0;
+		font-size: 12px;
+	}
+	[resume-page] h2 {
+		font-size: 14px;
+	}
+	[resume-page] ul {
+		font-size: 10px;
+	}
+	[resume-page] p:nth-child(odd) {
+	    margin-bottom: 1em;
+	}
+	a[href]:after {
+	   content:"" !important;
+	}
+
+}

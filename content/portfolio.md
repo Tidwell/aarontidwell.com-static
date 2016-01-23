@@ -1,8 +1,8 @@
 
 {
-	"template": "page"
+	"template": "portfolio",
+	"title": "Portfolio"
 }
 
 ---
 
-Portfolio
