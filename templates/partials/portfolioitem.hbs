@@ -1,30 +1,38 @@
-<div class="col-md-3 col-sm-6">
-	<div class="folio-item">
-		<div class="content">
-			<strong>{{this.name}}</strong>
-			<span class="tag">{{this.type}}</span>
-			<hr />
-			{{#if this.icon}}
-				<i class="fa {{this.icon}} fa-5x"></i>
-			{{/if}}
-			{{#if this.image}}
-				<img src="{{this.image}}" class="img-responsive" />
-			{{/if}}
-			<p>{{this.description}}</p>
+<div class="col-md-3 col-sm-6 flip">
+	<div class="card">
+		<div class="folio-item face front">
+			<div class="content">
+				<strong>{{this.name}}</strong>
+				<span class="tag">{{this.type}}</span>
+				<hr />
+				{{#if this.icon}}
+					<i class="fa {{this.icon}} fa-5x"></i>
+				{{/if}}
+				{{#if this.image}}
+					<img src="{{this.image}}" class="img-responsive" />
+				{{/if}}
+				<p>{{this.description}}</p>
+			</div>
+			<div class="link-container">
+				{{#if this.github }}
+					<a target= "_new" href="{{this.github}}">
+						<i class="fa fa-github"></i>
+						Github
+					</a>
+				{{/if}}
+				{{#if this.url}}
+					<a target="_new" href="{{this.url}}">
+						<i class="fa fa-file-o"></i>
+						Site
+					</a>
+				{{/if}}
+			</div>
 		</div>
-		<div class="link-container">
-			{{#if this.github }}
-				<a target= "_new" href="{{this.github}}">
-					<i class="fa fa-github"></i>
-					Github
-				</a>
-			{{/if}}
-			{{#if this.url}}
-				<a target="_new" href="{{this.url}}">
-					<i class="fa fa-file-o"></i>
-					Site
-				</a>
-			{{/if}}
+		<div class="folio-item face back">
+			<div class="content">
+				<strong>{{this.name}}</strong>
+			</div>
+			<hr />
 		</div>
 	</div>
 </div>	

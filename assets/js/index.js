@@ -27,6 +27,11 @@
 		$("[menu-close]").click(toggle);
 		$("[menu-toggle]").click(toggle);
 		$('a[href^="#"]').click(animate);
+
+		$('.portfolio').on('click', '.card', function(e) {
+			if ($(e.target).is('a')) { return; } //do nothing if its a link
+			$(this).toggleClass('flipped');
+		});
 	}
 
 	// Scrolls to the selected menu item on the page

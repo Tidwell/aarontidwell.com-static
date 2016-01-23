@@ -6,7 +6,9 @@
 
 TODO
 
--portfolio copy/styles
+-portfolio responsive styles
+-portfolio colors
+-portfolio backface content
 
 -resume clean up print margins
 -responsive resume styles

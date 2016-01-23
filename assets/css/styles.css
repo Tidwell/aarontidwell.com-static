@@ -19,7 +19,7 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .bg-primary {
-    background-color: #3d3d3d;
+    background-color: rgba(27,24,31,1);
 }
 .text-primary {
     color: #3d3d3d;
@@ -43,14 +43,14 @@ body {
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(30, 45, 80, 0.4);
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
     color: #fff;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(30, 45, 80, 0.7);
 }
 
 .btn-light {
@@ -196,7 +196,7 @@ hr.small {
 
 /* Portfolio */
 
-.portfolio {
+#portfolio {
     padding: 50px 0;
 }
 
@@ -228,20 +228,10 @@ hr.small {
     margin: 10px;
 }
 
-/* Map */
-
-.map {
-    height: 500px;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
-
 /* Footer */
 
 footer {
     padding: 100px 0;
 }
+
+
