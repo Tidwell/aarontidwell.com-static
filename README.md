@@ -7,7 +7,6 @@
 TODO
 
 -portfolio responsive styles
--portfolio colors
 -portfolio backface content
 
 -resume clean up print margins
