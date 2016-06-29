@@ -31,6 +31,15 @@
 	"indexProjectLibrary": true,
 	"technology": ["node.js", "yeoman", "mongodb"]
 }, {
+	"type": "application",
+	"name": "Faeria Decks",
+	"url": "http://www.faeriadecks.com",
+	"github": "https://github.com/Tidwell/faeriadecks",
+	"image": "/assets/images/portfolio-faeriadecks.jpg",
+	"description": "Faeria deckbuilder and card designer.",
+	"indexProjectSite": true,
+	"technology": ["node.js", "angular.js", "angular-material", "mongodb"]
+}, {
 	"type": "content site",
 	"name": "hearthstone.gg",
 	"url": "http://www.hearthstone.gg",
@@ -59,13 +68,12 @@
 	"technology": ["node.js", "socket.io", "angular.js", "mongodb"]
 }, {
 	"type": "application",
-	"name": "Faeria Decks",
-	"url": "http://www.faeriadecks.com",
-	"github": "https://github.com/Tidwell/faeriadecks",
-	"image": "/assets/images/portfolio-faeriadecks.jpg",
-	"description": "Faeria deckbuilder and card designer.",
-	"indexProjectSite": true,
-	"technology": ["node.js", "socket.io", "angular.js", "mongodb"]
+	"name": "Yak Bot",
+	"url": "https://github.com/Tidwell/faeria-discord-bot",
+	"github": "https://github.com/Tidwell/faeria-discord-bot",
+	"icon": "fa-comment",
+	"description": "Discord Bot for the official Faeria Discord Server.",
+	"technology": ["node.js", "mongodb", "discord.js"]
 }, {
 	"type": "library / application",
 	"name": "js IP Service",

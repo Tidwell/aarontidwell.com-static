@@ -4,6 +4,13 @@
 ``grunt dev``
 
 
+DEPLOY
+
+``git subtree push --prefix build origin live``
+
+``ssh to box and git pull on live branch``
+
+
 TODO
 
 -portfolio responsive styles
