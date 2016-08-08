@@ -23,7 +23,7 @@ SKILLS
 
 <p>Expert-level knowledge of a variety of web and general purpose programming languages for small and large-scale development.</p>
 
-<p>Extensive experience developing both frontend and backend applications, including content managment systems, data visualization, real-time applications and games.</p>
+<p>Extensive experience developing both frontend and backend applications, including content management systems, data visualization, real-time applications and games.</p>
 
 <p>Expert-level knowledge of vanilla javascript, progressive enhancement, mobile-first responsive design, service-oriented architecture, and other modern development considerations.</p>
 
@@ -99,7 +99,7 @@ Developed in-house applications with ES6 Javascript, HTML/CSS, and Node.  Archit
 
 **Frontend Developer** - **Business Insider** - 2012 to 2015
 
-Developed solutions for user-facing and in-house applications utilizing Javascript, HTML/CSS, Node.js, PHP, and MongoDB.  Architected in-house CMS with Knockout.js, and later Angular.js.  Developed several Node.js applications including a scalable gif to video solution and a realtime analytics and A/B testing platform utilizing websockets.
+Developed solutions for user-facing and in-house applications utilizing Javascript, HTML/CSS, Node.js, PHP, and MongoDB.  Architected in-house CMS with Knockout.js, and later Angular.js.  Developed several Node.js applications including a scalable gif to video solution and a real time analytics and A/B testing platform utilizing websockets.
 
 
 **Backend/Frontend Developer** - **Martha Stewart Living Omnimedia** - 2010 to 2011
