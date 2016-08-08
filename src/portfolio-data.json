@@ -69,7 +69,6 @@
 }, {
 	"type": "application",
 	"name": "Yak Bot",
-	"url": "https://github.com/Tidwell/faeria-discord-bot",
 	"github": "https://github.com/Tidwell/faeria-discord-bot",
 	"icon": "fa-comment",
 	"description": "Discord Bot for the official Faeria Discord Server.",

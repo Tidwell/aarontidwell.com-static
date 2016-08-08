@@ -6,7 +6,7 @@
 
 DEPLOY
 
-``git subtree push --prefix build origin live``
+``npm run-script deploy``
 
 ``ssh to box and git pull on live branch``
 
