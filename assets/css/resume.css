@@ -59,7 +59,10 @@
 [resume-page] .foot i {
     margin-left: 3em;
 }
-
+[resume-page] h2#selected-side-projects {
+    margin-top: 1.5em;
+    page-break-before:always;
+}
 
 @media screen {
     /*paper effect when not printed*/
