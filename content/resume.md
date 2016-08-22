@@ -87,7 +87,6 @@ TECHNOLOGY
 * canvas
 * webgl
 * css animations
-* CORS
 
 EXPERIENCE
 --
@@ -104,7 +103,7 @@ Created solutions for user-facing and in-house applications utilizing Javascript
 
 **Backend/Frontend Developer** - **Martha Stewart Living Omnimedia** - 2010 to 2011
 
-Developing solutions using PHP, MySQL, node.js, HTML/CSS, and Javascript for replatforming projects moving from legacy Vignette systems to Drupal.  Developed a data migration platform in node.js for transfering several hundred thousand content articles between systems. Extensive work developing and implementing an enterprise-level Javascript platform for the suite of Martha Stewart sites.  Created a twitter visualization experience using nodejs, twitter firehose and socket.io for streaming updates in real-time.
+Developing solutions using PHP, MySQL, node.js, HTML/CSS, and Javascript for replatforming projects moving from legacy Vignette systems to Drupal.  Developed a data migration platform in node.js for transferring several hundred thousand content articles between systems. Extensive work developing and implementing an enterprise-level Javascript platform for the suite of Martha Stewart sites.  Created a twitter visualization experience using nodejs, twitter firehose and socket.io for streaming updates in real-time.
 
 
 **Javascript API Developer / Frontend Developer** - **1010data** - 2009 to 2010
@@ -134,12 +133,12 @@ The most widely used node.js Steam Web API client.  It has been used by the pass
 
 **yakbot**
 
-A discord-based chat bot for managing the Faeria Trading Card community chat servers.  Written in node, uses mongodb for persistance and sockets for communicating to discord servers.  Features usage of the twitch.tv API, fuzzy contextual search, and webscraping as a data-source for calculating player ELO rating.
+A discord-based chat bot for managing the Faeria Trading Card community chat servers.  Written in node, uses mongodb for persistence and sockets for communicating to discord servers.  Features usage of the twitch.tv API, fuzzy contextual search, and webscraping as a data-source for calculating player ELO rating.
 
 
 **scrollstoolbox.com**
 
-A collection-tracking application with a custom C# in-game mod for the Scrolls Card Game.  Angular.js frontend for visualizing and analyzing collection information.  Node.js backend, utilizing websockets for a google-docs-esque live saving and for recieving data sent through the in-game mod.
+A collection-tracking application with a custom C# in-game mod for the Scrolls Card Game.  Angular.js frontend for visualizing and analyzing collection information.  Node.js backend, utilizing websockets for a google-docs-esque live saving and for receiving data sent through the in-game mod.
 
 
 **hstrny.com**
