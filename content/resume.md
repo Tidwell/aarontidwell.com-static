@@ -23,13 +23,13 @@ SKILLS
 
 <p>Expert-level knowledge of a variety of web and general purpose programming languages for small and large-scale development.</p>
 
-<p>Extensive experience developing both frontend and backend applications, including content management systems, data visualization, real-time applications and games.</p>
+<p>Extensive experience developing both client-side and backend applications utilizing many languages, frameworks, libraries, databases, and tools.</p>
 
-<p>Expert-level knowledge of vanilla javascript, progressive enhancement, mobile-first responsive design, service-oriented architecture, and other modern development considerations.</p>
+<p>Expert-level knowledge of vanilla javascript, semantic markup, progressive enhancement, responsive design, service-oriented architecture, and other modern development considerations.</p>
 
-<p>Extensive experience interacting with third-party APIs, and in the creation and maintenance of web APIs.</p>
+<p>Extensive experience interacting with third-party APIs, including Twitter, Facebook, Google (Plus, Maps, Search, etc), Linkedin, Ooyala, Doubleclick, and Youtube.  Experienced in the creation and maintenance of web APIs.</p>
 
-<p>Strong understanding of data security, scalability, multi-tiered systems, and service-oriented-architecture utilizing AWS and other cloud platforms.</p>
+<p>Strong understanding of scalability, multi-tiered systems, and service-oriented-architecture utilizing AWS and other cloud platforms.</p>
 
 <p>Extensive experience with Agile workflows and tools (Jira, Kanban, etc).  Experienced in leading teams, fostering developer culture, hiring, and systems architecture.</p>
 
@@ -81,11 +81,11 @@ TECHNOLOGY
 * photoshop
 
 
-* Side Projects
-* socket.io
-* es6
+* Fun
+* jquery
 * canvas
 * webgl
+* websockets
 * css animations
 
 EXPERIENCE
@@ -93,17 +93,17 @@ EXPERIENCE
 
 **Lead Frontend Developer** - **LiveIntent** - 2015 to 2016
 
-Architected Angular.js CMS and maintained legacy Backbone.js systems.  Extensive work with automation and deployment via jenkins.  Mentored junior developers and established code and development standards. Additional projects in Node.js, PHP, Java, and Python utilizing multiple nosql and sql-based databases for processing and reporting very large data sets.
+Developed in-house applications with Javascript, HTML/CSS, and Node.  Architected Angular.js applications and maintained legacy Backbone.js systems.  Extensive work with automation and deployment via jenkins.  Mentored junior developers and established code and development standards.  In addition to node, also worked on projects in PHP, Java, and Python utilizing Redis, MySQL, and MongoDB on Vagrant and AWS environments.
 
 
 **Frontend Developer** - **Business Insider** - 2012 to 2015
 
-Created solutions for user-facing and in-house applications utilizing Javascript, HTML/CSS, Node.js, PHP, and MongoDB.  Architected in-house CMS with Knockout.js, and later Angular.js.  Developed a scalable gif to video solution in node.js featuring pipes for handling large amounts of streamed data.  Also created a real time analytics and A/B testing platform with real-time websocket reporting and d3 for data visualization.
+Developed solutions for user-facing and in-house applications utilizing Javascript, HTML/CSS, Node.js, PHP, and MongoDB.  Architected in-house CMS with Knockout.js, and later Angular.js.  Developed several Node.js applications including a scalable gif to video solution.
 
 
 **Backend/Frontend Developer** - **Martha Stewart Living Omnimedia** - 2010 to 2011
 
-Developing solutions using PHP, MySQL, node.js, HTML/CSS, and Javascript for replatforming projects moving from legacy Vignette systems to Drupal.  Developed a data migration platform in node.js for transferring several hundred thousand content articles between systems. Extensive work developing and implementing an enterprise-level Javascript platform for the suite of Martha Stewart sites.  Created a twitter visualization experience using nodejs, twitter firehose and socket.io for streaming updates in real-time.
+Developing solutions using PHP, MySQL, node.js, HTML/CSS, and Javascript for replatforming projects moving from legacy Vignette systems to Drupal.  Developed internal data migration platform and several business products utilizing Node.js. Extensive work developing and implementing an enterprise-level Javascript platform.
 
 
 **Javascript API Developer / Frontend Developer** - **1010data** - 2009 to 2010
@@ -118,33 +118,9 @@ Developed HTML, CSS, Javascript, and PHP/MySQL for MarthaStewart.com. Launched W
 
 **Lead PHP Developer** - **Partythisweek.com** - 2006 to 2007
 
-Lead developer for all projects for partythisweek.com website. Included implementation of e-commerce presence, continual back-end bug-fixes and upgrades, server management, and front-end PHP / HTML / CSS / Javascript development.
-
-
-SELECTED SIDE PROJECTS
---
-
-Additional projects via [aarontidwell.com/portfolio][3] or [github.com/tidwell][1]
-
-**steam-web**
-
-The most widely used node.js Steam Web API client.  It has been used by the passport-steam authentication library and by several community sites.  Successfully maintained for over 6 years, continues to attract new contributors who actively submit updates and features.
-
-
-**yakbot**
-
-A discord-based chat bot for managing the Faeria Trading Card community chat servers.  Written in node, uses mongodb for persistence and sockets for communicating to discord servers.  Features usage of the twitch.tv API, fuzzy contextual search, and webscraping as a data-source for calculating player ELO rating.
-
-
-**scrollstoolbox.com**
-
-A collection-tracking application with a custom C# in-game mod for the Scrolls Card Game.  Angular.js frontend for visualizing and analyzing collection information.  Node.js backend, utilizing websockets for a google-docs-esque live saving and for receiving data sent through the in-game mod.
-
-
-**hstrny.com**
-
-A completely automated platform for sit-and-go Hearthstone Trading Card Game tournaments.  Uses node.js and socket.io for realtime communications and Angular.js for a single-page-app experience.  Successfully ran over 1200 tournaments for more than 8000 players.
-
+Lead developer for all projects for partythisweek.com website. Included implementation of e-commerce
+presence, continual back-end bug-fixes and upgrades, server management, and front-end PHP / HTML /
+CSS / Javascript development.
 
 <hr />
 
@@ -155,5 +131,4 @@ A completely automated platform for sit-and-go Hearthstone Trading Card Game tou
 
  [1]: http://www.github.com/tidwell "Aaron Tidwell on github"
  [2]: http://www.aarontidwell.com "AaronTidwell.com website"
- [3]: http://www.aarontidwell.com/portfolio "AaronTidwell.com portfolio"
 
