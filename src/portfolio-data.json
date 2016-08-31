@@ -84,7 +84,7 @@
 }, {
 	"type": "library",
 	"name": "jQuery Event Counter",
-	"github": "https://github.com/Tidwell/jquery.eventCounter.",
+	"github": "https://github.com/Tidwell/jquery.eventCounter",
 	"icon": "fa-plug",
 	"description": "jQuery plugin for counting events",
 	"technology": ["jQuery"]
